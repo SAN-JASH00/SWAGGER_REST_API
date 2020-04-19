@@ -75,7 +75,7 @@
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
-     <!--  <plugin>
+      <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.8.0</version>
         <configuration>
@@ -89,7 +89,7 @@
         <configuration>
           <warSourceDirectory>WebContent</warSourceDirectory>
         </configuration>
-      </plugin> -->
+      </plugin>
       <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-dependency-plugin</artifactId>
