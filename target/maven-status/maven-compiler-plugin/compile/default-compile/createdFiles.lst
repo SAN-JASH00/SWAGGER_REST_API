@@ -1,0 +1,4 @@
+com\san\controller\PartyController.class
+com\san\model\Party.class
+com\san\config\SwaggerConfig.class
+com\san\filter\ApiOriginFilter.class
