@@ -60,7 +60,16 @@
     	<filter-name>ApiOriginFilter</filter-name>
     	<url-pattern>/rest/*</url-pattern>
 	</filter-mapping>
-  
+  <security-constraint>
+    <web-resource-collection>
+        <web-resource-name>RestAPI</web-resource-name>
+        <url-pattern>/rest/*</url-pattern>
+        <http-method>GET</http-method>
+    </web-resource-collection>
+    <user-data-constraint>
+        <transport-guarantee>CONFIDENTIAL</transport-guarantee>
+    </user-data-constraint>
+</security-constraint>
   <welcome-file-list>
     <welcome-file>/index.html</welcome-file>
    </welcome-file-list> 
