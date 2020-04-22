@@ -20,7 +20,7 @@ public class SwaggerConfig extends HttpServlet{
 		beanConfig.setTitle("RestAPI");
 		beanConfig.setResourcePackage("com.san");
 		
-		String[] schemes = {"http", "https"};
+		String[] schemes = {"https", "http"};
 		 
 		beanConfig.setSchemes(schemes);
 		beanConfig.setScan(true);
