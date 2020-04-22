@@ -25,7 +25,7 @@ public class SwaggerConfig extends HttpServlet{
 		beanConfig.setSchemes(schemes);
 		beanConfig.setScan(true);
 		beanConfig.setPrettyPrint(true);
-		beanConfig.setHost("192.168.2.107:8080");
+		beanConfig.setHost("https://java-swagger-restapi.herokuapp.com/");
 	}
 	
 
