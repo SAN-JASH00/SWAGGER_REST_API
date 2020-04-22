@@ -15,7 +15,7 @@ public class SwaggerConfig extends HttpServlet{
 		super.init(config);
 		BeanConfig beanConfig = new BeanConfig();
 		
-		beanConfig.setBasePath("/RestAPI/rest");
+		beanConfig.setBasePath("/rest");
 		beanConfig.setVersion("1.0");
 		beanConfig.setTitle("RestAPI");
 		beanConfig.setResourcePackage("com.san");
