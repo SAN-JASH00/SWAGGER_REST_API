@@ -12,7 +12,7 @@ public class SwaggerConfig extends HttpServlet{
 	private static final long serialVersionUID = -4554955339937189382L;
 	public void init(ServletConfig config) throws ServletException
 	{
-		super.init(config);
+		//super.init(config);
 		BeanConfig beanConfig = new BeanConfig();
 		
 		beanConfig.setBasePath("/rest");
